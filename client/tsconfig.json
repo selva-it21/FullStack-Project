@@ -1,0 +1,17 @@
+{
+  //"extends": "@vue/tsconfig/tsconfig.web.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "moduleResolution": "nodenext",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "module": "NodeNext"
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
