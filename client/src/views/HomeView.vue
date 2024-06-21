@@ -2,7 +2,7 @@
   <main>
     <br>
     <br>
-    <h1>TMP</h1>
+    <h1>Task Management portal</h1>
     <p>Please sign in or create an account to continue.</p>
     <br>
     <br>
